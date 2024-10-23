@@ -1,0 +1,96 @@
+Html é uma linguagem de marcação de hipertexto, linguagem utilizada para criar paginas web.
+Ajudando a estruturar o conteudo que será exibido em nossa pagina da internet.
+Analogia :
+HTML esqueleto, estrutura base do corpo parte solida quem mantém as coisa de pé.
+O que é index.html (Ponto de partida inicial para nossa pagina web)
+Sendo os elementos como blocos de contrução que possuem sua funcionalidade.
+E conforme é desenvolvido a esttrutura organiza o conteúdo da pagina.
+
+
+Tags: Principais de estrutura, sendo cada elementos possui uma função especifica
+<html> Mundo principal o que permite tudo acontecer
+<head> Regras do mundo informações ocultas, Agrupando os itens: meta charset,name,title
+<body> O mundo que vemos ( O que é exibido no navegador), Agrupando todos os itens.
+
+  Tags/elements: complementares
+    Lang = "Idioma" (en, pt-br)
+
+    meta charset = "UTF-8" (Defini o conjunto de caracteres utilizados no documento)/ caracter especial, emojis, diferentes idiomas e conjunto de caracteres.
+
+  meta name ="viewport" content = "width-device-width, initial-scale"
+  #Define que a largura da pagina fique de acordo com a do dispositivo
+
+Tags: Div
+  Objetivo: agrupão outros elementos, criar controle. Com a div é possivel estruturar o codigo isolando cada trecho por bloco, possibilitando alterar/modificar cada div individualmente.
+  #Modificações possivel: controlar, mover, alterar,
+  <div>
+   <h2> Conteudo Generico </h2>
+  </div>
+  
+Tags: De titulo e Cabeçalho h1,h2,h3,h4,h5,h6
+  title: Titulo da pagina #influencia como os navegadores vão te direcionar para ela, e ao compartilhar a pagina o titulo geralmente acompanha o link
+  
+  h1: Paragrafo grande normalmente utilizado uma unica vez como o Titulo principal dentro da pagina
+  #Considera a mais importante tag do cabeçalho, sendo utilizada para o Titulo principal da pagina. Sendo recomendado ser exclusiamente único para uma página. (associação - lógica - só existe um titulo por página)
+  <h1>Titulo principal da pagina</h1>
+  
+  h2,h3,h4,h5,h6: Titulos menores; Mesma estrutura. <h></h>
+  h2: titulo secundario | Subseções dentro da página
+  *Detalhe um pouco menor que o h1
+  h3 ao h6: cabeçalho de níveis mais baixos. Improtancia segue pela ordem decrescente do menor para o maior. h1 + importante, h6 - menos importante.
+  *Sua utilidade: Subdividir conteúdos das sessões menores.
+  #Objetivo: Estruturar e organizar o conteúdo de uma página em HTML
+
+  Sistema hierarquico de importancia
+  h1: Unico 
+  h2: Destaque
+  h3: Importante
+  h4,h5,h6: ...
+  *Nota: O tamanho deles é ajustado no Css, agora a hierarquia é uma coisa unica deles.
+  
+Tag: Parágrafo
+  Parágrafos utilização para conter ou se escrever texto.
+  <p>Belo dia para dominar o mundo, boa sorte</p>
+  
+Tag: para Imagens
+  <img src ="link ou imagem local" /> #src =  source (fonte/pesquisa)
+  Link: www.seulink.com
+  imagem local: Dentro do seu computador, celular etc.
+  
+Tags: Listas
+    Ordenadas: Sigla ol, abriga li, distinção: apresenta valor correspondente a ordem dela
+    <ol>
+    <li>Lista ordenada</li> #Mostraria 1- Lista ordenada
+    <li>Lista ordenada</li> #Mostraria 2- Lista ordenada
+    <li>Lista ordenada</li> #Mostraria 3- Lista ordenada
+    </ol>
+  
+    Não ordenadas: Sigla ul, abriga li, distinção: não apresenta valor correspondente apenas um marcador simples
+    <ul>
+    <li>Lista não ordenada</li> #Mostraria - Lista não ordenada
+    <li>Lista não ordenada</li> #Mostraria - Lista não ordenada
+    </ul>
+
+  Tag: Links
+    É essencial para conctar páginas, permitir a navegação entre diferentes partes do conteúdo de um site.
+    Ex: Menu, Home, aba de contatos, e ao clicar neles vai direcionar para outra pagina, como ? por links.
+    Os links podem direcionar para url, ou outro arquivo, ou outra pasta.
+  Obs:Podem ser combinados e estilizados utilizando css, para criar um layout mais atraente do que o padrão.
+  Ex de uso: <a href ="index.html"> Home </a>
+             <a href ="contato.html"> Contato </a> #Ao clicar sobre o nome contato direcionaria para o arquivo (que deveria existe) chamado contato.html 
+  
+  formularios
+  
+  
+  Comandos de Html no Visual Studio:
+  html:5
+  !!!
+  !
+
+
+
+
+  Quiz 1:
+  Qual das seguintes opções descreve melhor o HTML?
+  Uma linguagem de marcação para estruturar conteúdo em páginas web.
+  
