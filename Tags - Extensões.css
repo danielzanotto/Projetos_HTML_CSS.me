@@ -1,0 +1,47 @@
+/* Comentário em css */
+
+<style></style> /* Tudo dentro desta tag é cosiderado css */
+
+cor_de_letra {
+  color: ; /*define a cor da letra*/
+  /*(hexdecimal:)  #000000 */
+}
+
+cor_de_fundo{
+  background-color: ; /*Cor de fundo - Escolha de cor*/
+  /*(preto:) black, #000000*/
+  /*(branco:) wihte, #FFFFFF*/
+  /*blue,red,gray*/
+  
+}
+
+tamanho_da_fonte{
+  fonte-size: ; /*Tamanho da fonte*/
+  /*(largura :)  large */
+  /*(pixel :)       px */
+  /*(centimetros :) cm */
+  /*(porcentagem:)   % */
+}
+
+decoracao_de_texto{
+  text-decoration:;
+  /*(sublinhado:) underline*/
+}
+
+alinhar_texto{
+  text-align: ;
+  /*(centralizado:) center*/
+}
+
+altura{
+  height:; /*altura*/
+  /*(automatico:) auto*/
+  /*(pixel :)       px */
+  
+}
+
+largura{
+  width: ; /*largura*/
+  /*(pixel :)    px */
+}
+
