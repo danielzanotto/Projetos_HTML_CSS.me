@@ -1,0 +1,56 @@
+Resumo: Desing da pagin na web.
+Css: Defini como as coisas iram ser segidas em sentido de desing:
+Cores, Fontes, Tamanhos de texto, *Posicionamento de telas etc.
+Ou seja, através do css a gente consegue dar estilo para as coisa.
+
+O que o Css faz? e Qual a sua função:
+O css é o esilo que será adicionado ao seu html, sendo uma extensão do html.
+Ele adiona estilo a um
+ Elemento do html/seletores do html: h1,h2...h6, body,div,p,img,ol,li,ul,a href, etc...
+ Elemento {estilo/propriedade do css}
+nome do atributo + propriedade do css
+propriedades do css: style,color,font-size,widt,heigt...
+
+
+Como "Chamar" o css?
+<style> nome { atributo:fatores } </style>
+
+#Estutura basica:-------------------------Reformular eventualmente
+Para personalizar escolhemos o nome desejado ex: h1
+Depois escolhemos qual vai ser a atribuido ex: cor
+Depois escolhemos os dados dessa atribuição ex: #valor em hexadecimal (#000000(preto)), (#ffffff (branco))
+
+Resultado:
+
+<style>
+h1 {
+    color: #00f1f1;
+    }
+</style>
+
+
+
+
+- Funcionalidades do CSS -tags:
+<style></style>  #Chama o estilo do css
+color: ;         #Cor da letra , em hexadecimal
+font-sizer: ;    #Tamanho da letra, large (largura)
+
+- Tamanaho de imagem:
+width:  ; #Largura px ou %, cm (pixel, porcentagem e centimetros)
+
+- Cores
+color: ;         #Cor da letra , em hexadecimal
+background-color: ; #Cor de fundo (Tudo que está dentro dela vai ficar azul)
+
+#O objetivo principal do css é personalizar as tags que criamos no html
+
+
+Tags: Personalização: (Qual o tipo de tag que vamos personalizar e como vamos personalizar)
+
+Qual tag que desejamos personalizar ?
+
+
+#Quiz 2
+Qual é a principal função do CSS em relação ao desenvolvimento web? 
+Controlar a apresentação e o layout de uma página HTML.
