@@ -3,7 +3,7 @@
 <style></style> /* Tudo dentro desta tag é cosiderado css */
 
 cor_de_letra {
-  color: ; /*define a cor da letra*/
+  color: ; /*define a cor da letra, texto*/
   /*(hexdecimal:)  #000000 */
 }
 
@@ -31,6 +31,7 @@ decoracao_de_texto{
 alinhar_texto{
   text-align: ;
   /*(centralizado:) center*/
+  /*(esquerda:)       left*/
 }
 
 altura{
