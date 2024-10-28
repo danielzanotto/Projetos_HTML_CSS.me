@@ -54,3 +54,23 @@ Qual tag que desejamos personalizar ?
 #Quiz 2
 Qual é a principal função do CSS em relação ao desenvolvimento web? 
 Controlar a apresentação e o layout de uma página HTML.
+
+
+h1: Selecionando nossa tag
+color: blue; Setando a propriedade css / pegando emprestado / seletor
+
+
+
+
+#Sintaxe css e seletores... continuar 4s
+
+tipos de seletores:
+seletores de classe e seletores de id
+
+
+* Seletores de classe: são identificados por um ponto
+ -Que permitem estilizar, varios elementos que compartilham da Classe
+ex: classe titulo
+
+.titulo{
+}
