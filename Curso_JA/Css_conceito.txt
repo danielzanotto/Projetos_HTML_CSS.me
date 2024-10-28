@@ -62,15 +62,41 @@ color: blue; Setando a propriedade css / pegando emprestado / seletor
 
 
 
-#Sintaxe css e seletores... continuar 4s
+#Sintaxe css e seletores:
 
 tipos de seletores:
-seletores de classe e seletores de id
+ - Seletores de classe e seletores de id
+ Permitem a gente utilizar elementos de maneira especifica e direcionada
 
+- Seletores de classe: são identificados por um ponto
+ Permitem estilizar, varios elementos que compartilham da Classe
+ ex: classe titulo
 
-* Seletores de classe: são identificados por um ponto
- -Que permitem estilizar, varios elementos que compartilham da Classe
-ex: classe titulo
+ .titulo{
+       text-alingh:center
+ }
 
-.titulo{
-}
+ (Ex: vamaos usar a classe titulo no h1:)
+ <h1 class = "titulo"> O que é css? </h1>
+
+ R: Agora todos os elementos que euu utilizar a classe titulo, vão ficar centralizados ex:
+<p class = "titulo">paragrafo</p>
+Resumo: Permitindo estilizar, varios elementos que compartilhem a mesma Classe
+
+- Seletor ID: é indicado pelo simbolo do # (hastag, jogo da velha).
+Ele deve ser unico da/na pagina buscando estilizar um unico elemento especifico.
+Afetando um elemento especifico.
+obs: Certifique-se sempre de usar o id de forma unica, para evitar problemas de estilos e funcionamaento no seu codigo mais a frente
+
+<p id = "paragrafo-destaque" > Texto muito relevante e importante </p>
+
+<style> #paragrafo-destaque{
+        color: red;
+        }
+
+</style>
+
+Extrutura do seletor de classe:
+propriedade html; seletor da tag (nome inserido); atributo = propriedade css;
+
+          h1                     titulo                     color: blue;
