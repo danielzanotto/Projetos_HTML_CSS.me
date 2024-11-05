@@ -15,6 +15,15 @@ cor_de_fundo{
   
 }
 
+estilo_da_fonte{
+  font-family: ; /*fonte das letras, numeros etc*/
+  /*Arial*/
+  /*sans-serif*//*Verdana*/
+  /*Se o navegador não encontrar: Usa segunda fonte fornecida*/ 
+  /*Arial, sans-serif*/ 
+
+}
+
 tamanho_da_fonte{
   fonte-size: ; /*Tamanho da fonte*/
   /*(largura :)  large */
@@ -42,7 +51,68 @@ altura{
 }
 
 largura{
-  width: ; /*largura*/
+  width: ; /*largura*/ /*<---->*/
   /*(pixel :)    px */
 }
 
+borda{
+  border: ;  /*(borda:) 
+  /*Grossurra - Estilo - Cor */
+  
+  /*(1) (Grossura) = (espessura)*/
+  /*(pixel :)       px */
+  /*(centimetros :) cm */
+  /*(porcentagem:)   % */
+  
+  /*(2) Estilo */
+  /*(solida :) solid*/
+  /*(pontinhos :) dotted*/
+
+  /*(3) Cor*/
+  /*(hexdecimal:)  #000000  */
+  /*(branco:) wihte, #FFFFFF*/
+  /*blue,red,gray*/
+  
+  /*Ex: border: 2px solid black;*/
+}
+margem{
+  margin:; /*Espaçamento Externo: (| _ |) */
+  /*(pixel :)       px */
+  /*(centimetros :) cm */
+  /*(porcentagem:)   % */
+}
+
+preencher_ate_ficar_cheio{
+  padding: ;   /*Espaçamento Interno: |( _ )| */
+  /*(pixel :)       px */
+  /*(centimetros :) cm */
+  /*(porcentagem:)   % */
+}
+
+sombra{
+  box-shadow: ; /*Sombra do objeto*/
+  /*(1) horizontal + direita, - esquerda*/
+  /*(pixel :)       px */
+  /*(centimetros :) cm */
+  /*(porcentagem:)   % */
+
+  /*(2) vertical + baixo, - cima*/
+  /*(pixel :)       px */
+  /*(centimetros :) cm */
+  /*(porcentagem:)   % */
+
+  /*(3:opcional) blur: desfoque+ mais desfocado - padrão zero. */
+  /*(pixel :)       px */
+  /*(centimetros :) cm */
+  /*(porcentagem:)   % */
+
+  /*(4:opcional) spread: espalhamaento da sombra, tamanho, + aumenta, - diminui */
+  /*(pixel :)       px */
+  /*(centimetros :) cm */
+  /*(porcentagem:)   % */
+
+  /*(5:opicional) color: cor da sombra*/
+  /*(preto:) black, #000000*/
+  /*(branco:) wihte, #FFFFFF*/
+  /*blue,red,gray*/
+  }
