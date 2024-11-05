@@ -100,3 +100,50 @@ Extrutura do seletor de classe:
 propriedade html; seletor da tag (nome inserido); atributo = propriedade css;
 
           h1                     titulo                     color: blue;
+
+
+Borda
+border: 1px  ; 
+Quando definimos uma borda: Devemos definir as propriedades desse elemento:
+largura - estilo - cor
+height: altura
+^
+|
+v
+width: largura <---->
+
+
+Margem: Definição Externa do elemento ( | 0 | )
+Padding: Definição Espaçamento Interno do elemento |( O )|
+text-align: define onde o texto estará alinhado
+
+
+
+box-shadow:
+
+   /*h-shadow: deslocamento horizontal*/
+   /*valor positivo: direita*/
+   /*valor negativo: esquerda*/
+  
+   /*v-shadow: deslocamento vertical */
+   /*valor positivo: p/ baixo*/
+   /*valor negativo: p/cima */
+  
+   /*blur:*/  /*Opcional*/  /*Desfoque: quanto maior o valor maiis difusa será a sombra*/
+   /*Ex: blur 0 (Sem desfoque), blur 20% (desfocado 20%)*/
+  
+   /*spread espalhamento da sombra*/
+   /*valor positivo: Aumenta o tamanho da sombra*/
+   /*valor negativo: Diminui o tamanho da sombra*/
+
+   / *color: cor da sombra*/
+  
+   /*Ex: box-shadow: h-shadow v-shadow blur spread color*/
+   /*box-shadow: 5px 5px 10px red;*/
+   /*5 pixels para a direita, 5 pixels para baixo, 10 pixels de desfoque, cor vermelha*/
+
+font-family: fonte das letras, numeros etc.
+   
+   Ex: Arial, sans-serif, Verdana...
+   E se o navegador não encontrar a primeira fonte escolida ? ele  usa a segunda fonte fornecida:
+   font-family: sans-serif, Arial; 
